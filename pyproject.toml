@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "search-comment"
+version = "0.1.0"
+description = "A CLI tool to search source files by comments"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Abhi Chethan" }
+]
+keywords = ["cli", "search", "comments", "developer-tool", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+  "Topic :: Software Development :: Tools"
+]
+
+[project.scripts]
+search-comment = "search_comment.cli:main"

@@ -1,0 +1,2 @@
+[console_scripts]
+search-comment = search_comment.cli:main
