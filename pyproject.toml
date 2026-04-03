@@ -15,8 +15,7 @@ keywords = ["cli", "search", "comments", "developer-tool", "python"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
-  "Environment :: Console",
-  "Topic :: Software Development :: Tools"
+  "Environment :: Console"
 ]
 
 [project.scripts]

@@ -1,7 +1,50 @@
 Metadata-Version: 2.4
 Name: search-comment
 Version: 0.1.0
-Summary: A CLI tool to search files by comments
+Summary: A CLI tool to search source files by comments
 Author: Abhi Chethan
+Keywords: cli,search,comments,developer-tool,python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+
+# Search Comment
+
+Search Comment is a command-line tool that helps developers find files by searching the comments written inside code files instead of searching by file name.
+
+## Why this project?
+
+Sometimes developers remember:
+- what the code does
+- what comment they wrote
+
+But they do not remember:
+- the exact file name
+- the exact folder path
+
+This tool solves that problem.
+
+## Windows Support
+
+This tool works on Windows.  
+Make sure your editor (like VS Code) is added to system PATH.
+
+Example:
+- Install VS Code
+- Enable "Add to PATH" option
+
+## Features
+
+- Search files using comment text
+- Supports languages like Java, Python, C, C++, HTML, and CSS
+- Optional path-based search
+- Lets user choose the file and open it in an editor
+- Filters many junk/system folders
+- Works as a CLI tool
+
+## Example Usage
+
+```bash
+search-comment "prime"
